@@ -33,7 +33,7 @@ import requests, livejson
 pip install livejson && pip install requests
 ```
 #### def json get
-```python
+``````python
 import requests
 Headers = {}
 _session = requests.Session()
@@ -42,7 +42,7 @@ def getJson(url, allowHeader=False):
         return json.loads(_session.get(url).text)
     else:
         return json.loads(_session.get(url, headers=Headers).text)
-```
+``````
 ```python
 import livejson
 settings = livejson.File('setting.json', True, False, 4)
