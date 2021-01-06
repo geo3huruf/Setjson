@@ -18,6 +18,10 @@ Setting for livejson
         print ('LOAD DEFAULT JSON')
         try:
             default_settings = line.getJson('https://raw.githubusercontent.com/crash-override404/selfbot-py/master/settingsv2.json')
+            """
+              jika suda ada bagian di server.py
+              gunakan == [ line.server.getJson('') ]
+            """
             settings.update(default_settings)
             print ('LOAD DEFAULT JSON (Success) ')
         except Exception:
