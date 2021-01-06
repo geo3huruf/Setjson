@@ -17,10 +17,10 @@ Setting for livejson
     if not settings:
         print ('LOAD DEFAULT JSON')
         try:
-            default_settings = line.getJson('https://raw.githubusercontent.com/crash-override404/selfbot-py/master/settingsv2.json')
+            default_settings = line.getJson('https://raw.githubusercontent.com/geo3huruf/Setjson/main/setting.json')
             """
               jika suda ada bagian di server.py
-              gunakan == [ line.server.getJson('') ]
+              gunakan == [ line.server.getJson('https://raw.githubusercontent.com/geo3huruf/Setjson/main/setting.json') ]
             """
             settings.update(default_settings)
             print ('LOAD DEFAULT JSON (Success) ')
