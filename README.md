@@ -12,16 +12,10 @@
 </p>
 
 ![Demo gif](https://media3.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif)
-
-`livejson` is:
-
 Thanks to [dgelessus](https://github.com/dgelessus) for naming this project.
+<h3 align="center">USAGE def</h3>
+<h2 align="center">Excample for python</h2>
 
-# Setjson
-Setting for livejson
-
-
-#### Excample for python
 ```python
 import requests, livejson
 ```
