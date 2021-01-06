@@ -2,9 +2,11 @@
 Setting for livejson
 
 
-## Excample for python
-### def json get
-###
+#### Excample for python
+#####    $ import requests, livejson 
+#####    $ pip install livejson && pip install requests 
+#### def json get
+######
     Headers = {}
     _session = request.Session()
     def getJson(self, url, allowHeader=False):
@@ -18,9 +20,8 @@ Setting for livejson
         print ('LOAD DEFAULT JSON')
         try:
             default_settings = line.getJson('https://raw.githubusercontent.com/geo3huruf/Setjson/main/setting.json')
-            """
-              jika suda ada bagian di server.py
-              gunakan == [ line.server.getJson('https://raw.githubusercontent.com/geo3huruf/Setjson/main/setting.json') ]
+            """if suda there is a part in server.py
+               use == [ line.server.getJson('https://raw.githubusercontent.com/geo3huruf/Setjson/main/setting.json') ]
             """
             settings.update(default_settings)
             print ('LOAD DEFAULT JSON (Success) ')
