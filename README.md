@@ -1,8 +1,4 @@
-<h1 align="center">livejson</h1>
-<p align="center">
-    <a href="https://pypi.python.org/pypi/rubicon-objc" align="center">
-   <img alt="Build Status" src="https://img.shields.io/pypi/v/rubicon-objc.svg">
-</p>
+<h3 align="center">livejson mod For github</h3>
 <p align="center">
     <a href="https://travis-ci.org/controversial/livejson" align="center">
         <img alt="Build Status" src="https://travis-ci.org/controversial/livejson.svg?branch=master">
