@@ -39,7 +39,7 @@ def getJson(url, allowHeader=False):
         return json.loads(_session.get(url).text)
     else:
         return json.loads(_session.get(url, headers=Headers).text)
-        
+```
 ```python
 import livejson
 settings = livejson.File('setting.json', True, False, 4)
